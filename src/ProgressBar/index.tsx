@@ -27,7 +27,7 @@ const ProgressBar = () => {
       <div className="rounded-xl border w-[400px] h-10 bg-yellow-100 overflow-hidden">
         <div
         //   className={`w-full bg-red-600 h-full translate-x-[calc(${progress}%-100%)] transition-transform duration-1000`}
-          className="w-full bg-red-600 h-full transition-transform duration-500 text-right py-2 px-1"
+          className="w-full bg-red-600 h-full transition-transform duration-500 text-right py-2 px-1 text-white font-bold"
           style={{ transform: `translateX(calc(${progress}% - 100%))` }}
         >{`${progress}%`}</div>
       </div>
